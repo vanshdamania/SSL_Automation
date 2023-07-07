@@ -8,8 +8,8 @@ This Flask application provides an API endpoint to configure a reverse proxy and
 3. Writes the Nginx configuration to the appropriate location.
 4. Restarts Nginx to apply the changes and enable the reverse proxy and SSL for the domain.
 
-5. # Prerequisites
-6. To run this application, you need:-
-7. 1. Python, Nginx installed on the system.
-   2. Install necessary packages by running the following command:-
-          pip install -r requirements.txt
+# Prerequisites
+To run this application, you need:-
+1. Python, Nginx installed on the system.
+2. Install necessary packages by running the following command:-
+         pip install -r requirements.txt or pip3 install -r requirements.txt
