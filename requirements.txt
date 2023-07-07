@@ -1,0 +1,4 @@
+Flask==2.3.2
+certbot==1.29.0
+certbot
+certbot-nginx
