@@ -17,7 +17,7 @@ To run this application, you need:-
 # Usage 
 1. Clone this repository: https://github.com/vanshdamania/SSL_Automation
 2. Execute the Python script with elevated privileges using the sudo command.
-3. Send a POST request to http://<Your IP>:5000/configure with the domain name as a form parameter.
+3. Send a POST request to http://<<Your IP>>:5000/configure with the domain name as a form parameter.
 4. The application will configure the reverse proxy and generate SSL certificates for the specified domain.
 
 # Note
