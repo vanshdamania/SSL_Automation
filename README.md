@@ -9,15 +9,14 @@ This Flask application provides an API endpoint to configure a reverse proxy and
 4. Restarts Nginx to apply the changes and enable the reverse proxy and SSL for the domain.
 
 # Prerequisites
-To run this application, you need:-
-1. Python, Nginx installed on the system.
-2. Install necessary packages by running the following command:-                                                                         
-        pip install -r requirements.txt or pip3 install -r requirements.txt
+Run the bash script attached in the repositary to install all the dependencies.
+chmod +x setup.sh
+./setup.sh
 
 # Usage 
 1. Clone this repository: https://github.com/vanshdamania/SSL_Automation
 2. Execute the Python script with elevated privileges using the sudo command.
-3. Send a POST request to http://<<Your IP>>:5000/configure with the domain name as a form parameter.
+3. Send a POST request to http://{Ip Address}:5000/configure with the domain name as a form parameter.
 4. The application will configure the reverse proxy and generate SSL certificates for the specified domain.
 
 # Note
